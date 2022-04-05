@@ -30,16 +30,34 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="renderer\add.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="renderer\add.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="DataStore.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="renderer\index.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="main.js" />
     <Content Include="preload.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />
-    <Content Include="index.html">
+    <Content Include="renderer\index.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="README.md" />
+    <Content Include="renderer\style.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Window.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="renderer\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
 </Project>

@@ -12,9 +12,14 @@
     "Quilt"
   ],
   "license": "MIT",
-  "dependencies": { "electron": "^17.2.0" },
   "devDependencies": {
-    "standard": "12.0.1"
+    "devtron": "^1.4.0",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "electron": "^18.0.1",
+    "electron-reload": "^1.2.5",
+    "electron-store": "^2.0.0",
+    "spectre.css": "^0.5.3"
   }
-
 }
